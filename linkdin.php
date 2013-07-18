@@ -4,7 +4,7 @@ define('API_KEY',      'sns1ondfnsl0'                                          )
 define('API_SECRET',   'y8xP8ISgqK6iSL4Y'                                       );
 define('REDIRECT_URI', 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['SCRIPT_NAME']);
 define('SCOPE',        'r_fullprofile r_emailaddress rw_nus'                        );
- 
+  
 // You'll probably use a database
 session_name('linkedin');
 session_start();
